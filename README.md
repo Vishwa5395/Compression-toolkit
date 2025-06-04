@@ -2,11 +2,11 @@
 
 **Compression Toolkit** is a web-based utility that enables users to compress and decompress text using a variety of popular algorithms. It provides an intuitive interface to help developers, students, and researchers understand how data compression works in real time.
 
-🌐 **Live Demo**: [https://compression-toolkit.vercel.app/](https://compression-toolkit.vercel.app/)
+ **Live Demo**: [https://compression-toolkit.vercel.app/](https://compression-toolkit.vercel.app/)
 
 ---
 
-## 🧩 Features
+##  Features
 
 -  **Compress & Decompress Text** easily
 -  Supports common compression algorithms (e.g., Huffman, Run-Length, etc.)
@@ -39,7 +39,7 @@
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. Visit: [https://compression-toolkit.vercel.app/](https://compression-toolkit.vercel.app/)
 2. Enter your **file** in the input box.
@@ -49,7 +49,7 @@
 
 ---
 
-## 🧪 Future Enhancements
+##  Future Enhancements
 
 - Add more algorithms (e.g., LZW, Burrows-Wheeler Transform)
 - Visual representation of encoding trees (for Huffman)
@@ -59,7 +59,7 @@
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 compression-toolkit/
 ├── index.html # Main HTML file
@@ -71,7 +71,7 @@ compression-toolkit/
 ---
 
 
-## 👨‍💻 Author
+##  Author
 
 **Vishwanath Tiwari**
 
