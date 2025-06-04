@@ -1,4 +1,4 @@
-// compressor.js
+
 
 function showStatus(elementId, message, type = 'info') {
     const el = document.getElementById(elementId);
@@ -11,7 +11,7 @@ function showProgress(id) { document.getElementById(id).style.display = 'block';
 function hideProgress(id) { document.getElementById(id).style.display = 'none'; }
 function showDownload(id) { document.getElementById(id).classList.add('show'); }
 
-// ✅ Readable File Compression
+
 document.getElementById('compress_file').addEventListener('click', () => {
     const input = document.getElementById('file_input');
     const file = input.files[0];
@@ -46,7 +46,7 @@ document.getElementById('compress_file').addEventListener('click', () => {
     reader.readAsText(file);
 });
 
-// ✅ Image Compression
+
 document.getElementById('processBtn').addEventListener('click', () => {
     const input = document.getElementById('imageUpload');
     const file = input.files[0];
@@ -83,7 +83,7 @@ document.getElementById('processBtn').addEventListener('click', () => {
     img.onerror = () => showStatus('image-status', 'Failed to load image.', 'error');
 });
 
-// ✅ Video Compression (frame-based)
+
 document.getElementById('compressBtn').addEventListener('click', () => {
     const input = document.getElementById('videoInput');
     const file = input.files[0];
@@ -127,7 +127,7 @@ document.getElementById('compressBtn').addEventListener('click', () => {
     video.onerror = () => showStatus(videoStatus, 'Could not process video.', 'error');
 });
 
-// ✅ Show file name after selection
+
 document.querySelectorAll('input[type="file"]').forEach(input => {
     input.addEventListener('change', function () {
         const wrapper = this.closest('.file-input-wrapper');
